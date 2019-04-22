@@ -1,0 +1,20 @@
+{
+  "name": "ghgl-glslify",
+  "version": "1.0.0",
+  "description": "glslify server for ghgl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ghgl",
+    "glslify"
+  ],
+  "author": "Robert McNeel & Associates",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "glsl-noise": "0.0.0",
+    "glslify": "^7.0.0"
+  }
+}
