@@ -74,6 +74,7 @@
     "glsl-transpose": "^1.0.0",
     "glsl-turntable-camera": "^1.0.0",
     "glslify": "^7.0.0",
-    "matcap": "0.0.2"
+    "matcap": "0.0.2",
+    "package-info": "^3.0.2"
   }
 }
