@@ -21,14 +21,17 @@ app.get('/', (req, res) => {
   res.send('ghgl-glslify online');
 });
 
+var packageList = null;
 app.get('/packages', async (req, res) => {
-  res.send(Object.keys(glslPackages));
-});
-
-app.get('/package/:packageName', async (req, res) => {
-  package = req.params.packageName;
-  let info = await packageInfo(package);
-  res.send(info);
+  if( packageList === null ) {
+    packageList = [];
+    let keys = Object.keys(glslPackages);
+    for(let i=0; i<keys.length; i++) {
+      let info = await packageInfo(keys[i]);
+      packageList.push(info);
+    }
+  }
+  res.send(packageList);
 });
 
 app.post('/process', function(req, res){
