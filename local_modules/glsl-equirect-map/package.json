@@ -1,0 +1,9 @@
+{
+  "author": "Robert McNeel & Associates",
+  "description": "equirectangular map utility function",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "glsl-equirect-map",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mcneel/ghgl-glslify"
+}
