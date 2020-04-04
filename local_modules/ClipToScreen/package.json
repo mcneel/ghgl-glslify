@@ -1,0 +1,9 @@
+{
+  "author": "Robert McNeel & Associates",
+  "description": "Convert 4d clip coordinate to 2d screen coordinate",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ClipToScreen",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mcneel/ghgl-glslify"
+}
