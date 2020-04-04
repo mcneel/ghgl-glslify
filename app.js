@@ -53,7 +53,7 @@ app.post('/process', function(req, res){
   keys = Object.keys(glslLocalPackages);
   for(let i=0; i<keys.length; i++)
   {
-    code = code.replace(keys[i], "./local_modules/"+keys[i]+"/index.glsl");
+    code = code.replace("'" + keys[i] + "'", "'./local_modules/"+keys[i]+"/index.glsl'");
   }
   var processed = glsl(code);
   res.send(processed);

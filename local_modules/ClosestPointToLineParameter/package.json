@@ -1,0 +1,9 @@
+{
+  "author": "Robert McNeel & Associates",
+  "description": "Find the closest point to a line for a given point and return normalized parameter along line for this closest point",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ClosestPointToLineParameter",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mcneel/ghgl-glslify"
+}
