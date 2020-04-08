@@ -1,0 +1,9 @@
+{
+  "author": "Robert McNeel & Associates",
+  "description": "Convert 3d world coordinate to 2d screen coordinate",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "WorldToScreen",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mcneel/ghgl-glslify"
+}
