@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "glsl-aastep": "^1.0.1",
     "glsl-ascii-filter": "^1.0.1",
     "glsl-atmosphere": "^2.0.0",
